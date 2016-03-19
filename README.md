@@ -6,7 +6,8 @@ Using the API documented here: http://wsdoc.mitryusweb.com.br/Doc
 
 Add and refresh all data.
 
-1) SSH to the server 
+1) SSH to the server
+<br>
 2) Test running the wp-cron.php script and see if it returns an error
 <pre>php /var/www/html/wp-cron.php</pre>
 3) Run command Crontab for the Apache user (www-data)
